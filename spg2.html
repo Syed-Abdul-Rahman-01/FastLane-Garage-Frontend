@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full screen container */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 147vh;  /*100% of viewport height */
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        /* Heading */
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Content Container */
+        .content {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align everything to the left */
+        }
+
+        /* Image Styling */
+        img {
+            width: 480px; /* Adjust width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px; /* Rounded corners */
+            margin-bottom: 15px;
+        }
+
+        /* Subheading */
+        h2 {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Paragraph */
+        p {
+            font-size: 21px;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+            body {
+                height: auto; /* Adjust height for scrolling */
+                padding: 20px; /* Add padding */
+            }
+
+            .content {
+                width: 90%; /* Make content take more space */
+                align-items: center; /* Center content */
+                text-align: center; /* Center text */
+            }
+
+            img {
+                width: 100%; /* Make image responsive */
+            }
+
+            h1 {
+                font-size: 26px; /* Reduce heading size */
+            }
+
+            h2 {
+                font-size: 22px; /* Reduce subheading size */
+            }
+
+            p {
+                font-size: 18px; /* Reduce paragraph font size */
+                text-align: justify; /* Justify for better readability */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>Our Services</h1>
+
+    <!-- Content Section -->
+    <div class="content">
+        <!-- Image -->
+        <img src="https://media.istockphoto.com/id/1714398321/photo/hand-of-mechanic-holding-car-icon.jpg?s=612x612&w=0&k=20&c=Fuum1i2l0kNP1iNReUqPL2iX7xOKJNecZWd5hOcwT0M=" alt="Service Image">
+
+        <!-- Subheading -->
+        <h2>Performance</h2>
+
+        <!-- Paragraph -->
+        <p>
+            Elevate your car’s capabilities with our performance upgrades designed for enthusiasts and track-ready drivers. Our engine tuning services enhance horsepower and torque, while ECU tuning optimizes your car’s computer for peak performance. Suspension upgrades, such as coilovers and performance springs, improve handling and stability, and braking system enhancements like big brake kits ensure superior stopping power. For those seeking a distinctive exhaust note and improved airflow, we offer custom exhaust system modifications. Whether you want to dominate the track or enjoy a spirited drive, our performance services are tailored to meet your needs. <br>
+            Elevate your car’s capabilities with our performance upgrades designed for enthusiasts and track-ready drivers. Our engine tuning services enhance horsepower and torque, while ECU tuning optimizes your car’s computer for peak performance. Suspension upgrades, such as coilovers and performance springs, improve handling and stability, and braking system enhancements like big brake kits ensure superior stopping power. For those seeking a distinctive exhaust note and improved airflow, we offer custom exhaust system modifications. Whether you want to dominate the track or enjoy a spirited drive, our performance services are tailored to meet your needs. <br>
+            Elevate your car’s capabilities with our performance upgrades designed for enthusiasts and track-ready drivers. Our engine tuning services enhance horsepower and torque, while ECU tuning optimizes your car’s computer for peak performance. Suspension upgrades, such as coilovers and performance springs, improve handling and stability, and braking system enhancements like big brake kits ensure superior stopping power. For those seeking a distinctive exhaust note and improved airflow, we offer custom exhaust system modifications. Whether you want to dominate the track or enjoy a spirited drive, our performance services are tailored to meet your needs.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+
+
 .service-section{
+  font-family: 'Work Sans', sans-serif;
   margin-top: 30px;
   margin-bottom: 60px;
 }
@@ -48,7 +52,6 @@
 /* Button Styling */
 .btn {
   display: inline-block;
-  background-color: white;  /* #ff3333 Red color */
   color: black;  /* White text */
   padding: 3px 7px;  /* Padding */
   text-decoration: none;  /* Remove underline */
